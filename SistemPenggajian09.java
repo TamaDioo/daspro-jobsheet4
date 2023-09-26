@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class SistemPenggajian09 {
     public class gaji {
-        public static void main(String[] args) throws Exception {
+        public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             System.out.print("Masukkan nama: ");
@@ -24,6 +24,8 @@ public class SistemPenggajian09 {
             System.out.println("Gaji lembur : " + jumlahGajiLembur);
             System.out.println("Jumlah gaji bulanan : " + jumlahGajiBulanan);
             System.out.println("==================================");   
+
+        
         }
     }
 }
